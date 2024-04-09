@@ -24,7 +24,7 @@ import {
     HiOutlineVariable,
     HiOutlineCode,
 } from 'react-icons/hi'
-
+import { FaBoxOpen } from "react-icons/fa";
 export type NavigationIcons = Record<string, JSX.Element>
 
 const navigationIcon: NavigationIcons = {
@@ -55,6 +55,7 @@ const navigationIcon: NavigationIcons = {
     sharedComponentDoc: <HiOutlineShare />,
     utilsDoc: <HiOutlineVariable />,
     changeLog: <HiOutlineCode />,
+    products: <FaBoxOpen />,
 }
 
 export default navigationIcon

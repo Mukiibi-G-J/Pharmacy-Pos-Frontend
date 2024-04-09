@@ -22,7 +22,7 @@ const uiComponentNavigationConfig: NavigationTree[] = [
                 path: '',
                 title: 'Common',
                 translateKey: 'nav.uiComponentsCommon.common',
-                icon: 'common',
+                icon: 'FaBoxOpen',
                 type: NAV_ITEM_TYPE_COLLAPSE,
                 authority: [ADMIN, USER],
                 subMenu: [
